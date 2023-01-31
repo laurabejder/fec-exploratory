@@ -1,7 +1,9 @@
 # fec-exploratory
 
-The campaign finance data is available in bulk at https://www.fec.gov/data/browse-data/?tab=bulk-data
+The campaign finance data is available in bulk at:
 
-I have used [this open source code](https://github.com/ethan-homan/fec-gov-postgres) to pump the data from 2008-2022 into a postgres database. 
+https://www.fec.gov/data/browse-data/?tab=bulk-data
 
-`database.ipynb` contains some python code that will allow you to access that postgres database via SQL queries for the purposes of exploratory data visualization.
+I have uploaded the FEC's bulk data (2008-2022) into a postgres database using [this open source code](https://github.com/ethan-homan/fec-gov-postgres). 
+
+`database.ipynb` contains some example code that runs a query against the postgres database, grabs the output in a pandas dataframe and then plots that in ggplot.
